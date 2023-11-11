@@ -1,0 +1,34 @@
+html{
+    height: auto;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    background-image: url(imagens/img01.gif);
+    background-position: 30rem;
+    background-position-x: right;
+    background-repeat: no-repeat;
+}
+
+.geral{
+    margin-top: 2rem;
+    margin-left: 3rem;
+    font-family: 'Montserrat Hairline', sans-serif;
+}
+
+.title{
+    font-family: 'Montserrat Hairline', sans-serif;
+    font-size: 5rem;
+    margin-top: 7rem;                                                                                    
+}
+.g{
+    margin-right: 30rem;
+}
+.button{
+    border-color: transparent;
+    
+}
+.redes{
+    margin-right: 2rem;
+    text-decoration: transparent;
+}
