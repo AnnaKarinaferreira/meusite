@@ -4,23 +4,30 @@ html{
 
 body{
     background-color: rgb(255, 255, 255);
-    background-image: url(imagens/img01.gif);
-    background-position: 30rem;
-    background-position-x: right;
-    background-repeat: no-repeat;
+}
+.geral{
+    margin-right: none;
+    font-family: 'Montserrat Hairline', sans-serif;
 }
 
-.geral{
-    margin-top: 2rem;
-    margin-left: 3rem;
-    font-family: 'Montserrat Hairline', sans-serif;
+.img01{
+    background-repeat:no-repeat ;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 5px;
 }
 
 .title{
     font-family: 'Montserrat Hairline', sans-serif;
-    font-size: 5rem;
-    margin-top: 7rem;                                                                                    
+    font-size: 3rem;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-top: 4rem;                                                                                    
 }
+
+
+
+
 .g{
     margin-right: 30rem;
 }
@@ -28,7 +35,10 @@ body{
     border-color: transparent;
     
 }
-.redes{
+.textimg{
+    
+}
+.redes a {
     margin-right: 2rem;
     text-decoration: transparent;
 }
