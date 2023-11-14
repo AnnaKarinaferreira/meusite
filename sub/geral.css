@@ -24,6 +24,7 @@ body{
 .img02{
     width: 30vw;
     position: absolute;
+    left: 60vw;
     top: 10vw;
     right: 15vw;
    
@@ -32,15 +33,15 @@ body{
     border-radius: 2rem;
     background-color: #ffffff;
     height: 25rem;
-    width: 60rem;
+    width: 50rem;
     /*box-shadow: 10px 20px 15px #ffd0d3,
              -10px -20px -15px  #cf000a;*/
-    box-shadow:  26px 26px 53px #44424299,
+    box-shadow:  26px 26px 53px #A293B8,
     -26px -26px 53px #ffd0d336;
 
 }
 a .button{
-    color: #CFBCEB;
+    color: #A293B8;
     border-color: transparent;
     height: 2vw;
     border-radius: 1vw;
