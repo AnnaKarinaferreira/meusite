@@ -1,19 +1,23 @@
 body{
     background-color: #ffffff;
-    padding-top: 3rem;
-    padding-left: 2rem;
+    padding-top: 5vw;
+    padding-left: 7vw;
 }
 .titulo{
+    color: #A293B8;
     font-family: 'Montserrat Hairline', sans-serif;
-    font-size: 5rem;
+    font-size: 3vw;
+    padding-top: 2vw; 
     margin-bottom: 0;
-    margin-right: 0px;
-    margin-left: 0%;
-    margin-top: 4rem; 
+    margin-right: 0vw;
+    margin-left: 3vw;
+    
 }
 
 .subtitulo{
-    margin-top: 4rem;
+    color: #A293B8;
+    margin-left: 3vw;
+    margin-top: 3vw;
     font-family: 'Montserrat Hairline', sans-serif;
     font-size: 20px; 
 }
@@ -28,14 +32,18 @@ body{
     border-radius: 2rem;
     background-color: #ffffff;
     height: 25rem;
-    width: 55rem;
+    width: 60rem;
     /*box-shadow: 10px 20px 15px #ffd0d3,
              -10px -20px -15px  #cf000a;*/
-    box-shadow:  26px 26px 53px #ffd0d399,
+    box-shadow:  26px 26px 53px #44424299,
     -26px -26px 53px #ffd0d336;
 
 }
 a .button{
+    color: #CFBCEB;
+    border-color: transparent;
+    height: 2vw;
+    border-radius: 1vw;
     width: 100px;
     text-decoration: transparent;
 }
