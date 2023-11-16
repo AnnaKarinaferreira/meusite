@@ -1,141 +1,118 @@
-html{
-  height: 100%;
+body{
+  background-color: #ffffff;
+  padding-top: 3vw;
+  padding-left: 2vw;
+}
+.titulo{
+  color: #A293B8;
+  font-family: 'Montserrat Hairline', sans-serif;
+  font-size: 3vw;
+  padding-top: 2vw; 
+  margin-bottom: 0;
+  margin-right: 0vw;
+  margin-left: 3vw;
+  
 }
 
-body{
-  background-color: rgb(255, 255, 255);
-  padding-left:2rem ;
-  padding-top: 3rem;
+.subtitulo{
+  color: #A293B8;
+  margin-left: 3vw;
+  margin-top: 3vw;
+  font-family: 'Montserrat Hairline', sans-serif;
+  font-size: 20px; 
 }
-.img{
+.img02{
   width: 30vw;
   position: absolute;
+  left: 60vw;
   top: 10vw;
   right: 15vw;
  
 }
-.subtitle{
-  color: #A293B8;
-  font-family: 'Montserrat Hairline', sans-serif;
-  margin-left: 33rem;
-  margin-top: 1rem;
-  font-size: 15px;
-}
+.container{
+  border-radius: 2rem;
+  background-color: #ffffff;
+  height: 25rem;
+  width: 50rem;
+  box-shadow:  26px 26px 53px #A293B8,
+  -26px -26px 53px #ffd0d336;
 
-.title{
-  color: #A293B8;
-  font-family: 'Montserrat Hairline', sans-serif;
-  font-size: 5vw;
-  margin-bottom: 0;
-  margin-right: 0px;
-  margin-left: 2vw;
-  margin-top: 5vw;                                                                                    
-}
-.title2{
-  color: #A293B8;
-  font-size: 5vw;
-  font-family: 'Montserrat Hairline', sans-serif;
-  margin-left: 1vw;
-  margin-top: 5vw;
-}
-.g{
-  margin-right: 30rem;
 }
 .button{
-  margin-right: 40vw;
+  align-items: center;
   margin-top: 5vw;
-  margin-left: 1vw;
-}
-.button2{
-align-items: center;
-appearance: none;
-background-color: #A293B8;
-border-radius: 24px;
-border-style: none;
-box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
-box-sizing: border-box;
-color: #d0d4d8;
-cursor: pointer;
-display: inline-flex;
-fill: currentcolor;
-font-family: "Google Sans",Roboto,Arial,sans-serif;
-font-size: 15px;
-font-weight: 50vw;
-height: 60px;
-justify-content: center;
-letter-spacing: .25VW;
-line-height: normal;
-max-width: 100%;
-overflow: visible;
-position: relative;
-text-align: center;
-text-transform: none;
-transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
-user-select: none;
--webkit-user-select: none;
-touch-action: manipulation;
-width: 30vw;
-will-change: transform,opacity;
-z-index: 0;
-}
-
-.button2:hover {
-background: #F6F9FE;
-color: #A293B8;
-}
-
-.button2:active {
-box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
-outline: none;
-}
-
-.button2:focus {
-outline: none;
-border: 2px solid #4285f4;
-}
-
-.button2:not(:disabled) {
-box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
-}
-
-.button2:not(:disabled):hover {
-box-shadow: rgba(60, 64, 67, .3) 0 2px 3px 0, rgba(60, 64, 67, .15) 0 6px 10px 4px;
-}
-
-.button2:not(:disabled):focus {
-box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
-}
-
-.button2:not(:disabled):active {
-box-shadow: rgba(60, 64, 67, .3) 0 4px 4px 0, rgba(60, 64, 67, .15) 0 8px 12px 6px;
-}
-
-.button2:disabled {
-box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
-}
-.brilho {
-color: #fff !important;
-text-transform: uppercase;
-text-decoration: none;
-background: #A293B8;
-padding: 20px;
-border-radius: 50px;
-display: inline-block;
-border: none;
-transition: all 0.4s ease 0s;
-}
-.brilho:hover {
-text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
--webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
--moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-transition: all 0.4s ease 0s;
-}
-
-.redes a {
+  appearance: none;
+  background-color: #A293B8;
+  border-radius: 24px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+  box-sizing: border-box;
+  color: #d0d4d8;
+  cursor: pointer;
+  display: inline-flex;
+  fill: currentcolor;
+  font-family: "Google Sans",Roboto,Arial,sans-serif;
+  font-size: 15px;
+  font-weight: 50vw;
+  height: 60px;
+  justify-content: center;
+  letter-spacing: .25VW;
+  line-height: normal;
+  max-width: 100%;
+  overflow: visible;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 5vw;
+  will-change: transform,opacity;
+  z-index: 0;
+  }
+  
+  .button:hover {
+  background: #F6F9FE;
   color: #A293B8;
-  margin-left: 1vw;
-  margin-bottom: 4vw;
-  margin-right:2vw;
-  font-family: 'Montserrat Hairline', sans-serif;
-  text-decoration: transparent;
-}
+  }
+  
+  .button:active {
+  box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
+  outline: none;
+  }
+  
+  .button:focus {
+  outline: none;
+  border: 2px solid #4285f4;
+  }
+  
+  .button:not(:disabled) {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+  }
+  
+  .button:not(:disabled):hover {
+  box-shadow: rgba(60, 64, 67, .3) 0 2px 3px 0, rgba(60, 64, 67, .15) 0 6px 10px 4px;
+  }
+  
+  .button:not(:disabled):focus {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+  }
+  
+  .button:not(:disabled):active {
+  box-shadow: rgba(60, 64, 67, .3) 0 4px 4px 0, rgba(60, 64, 67, .15) 0 8px 12px 6px;
+  }
+  
+  .button:disabled {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+  }
+  
+  .redes a {
+      color: #A293B8;
+      margin-left: 1vw;
+      margin-bottom: 4vw;
+      margin-right:2vw;
+      font-family: 'Montserrat Hairline', sans-serif;
+      text-decoration: transparent;
+    }
+    
