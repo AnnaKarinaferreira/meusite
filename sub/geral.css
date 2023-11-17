@@ -32,7 +32,7 @@ body{
 .container{
     border-radius: 2rem;
     background-color: #ffffff;
-    height: 25rem;
+    height: 20rem;
     width: 50rem;
     box-shadow:  26px 26px 53px #A293B8,
     -26px -26px 53px #ffd0d336;
@@ -47,7 +47,7 @@ body{
     border-style: none;
     box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
     box-sizing: border-box;
-    color: #d0d4d8;
+    color: #282829;
     cursor: pointer;
     display: inline-flex;
     fill: currentcolor;
@@ -67,7 +67,8 @@ body{
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-    width: 5vw;
+    height: 3vw;
+    width: 6vw;
     will-change: transform,opacity;
     z-index: 0;
     }
